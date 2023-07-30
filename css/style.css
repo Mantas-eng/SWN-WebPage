@@ -93,9 +93,7 @@ display: none;
     bottom: 60px;
     font-size: 60px;
     font-weight: bold;
-
   }
-
 
 .arrow-wrap {
   display: flex;
@@ -103,7 +101,6 @@ display: none;
   align-items: center;
 
 }
-
 
 .nav-menu ul {
   display: flex;
@@ -140,25 +137,16 @@ nav ul li:last-child {
     margin: 15px;
 }
 
-.main-section{
-    margin: 50px;
-}
 
 .card-container {
 
     justify-items: center;
     max-width: 1200px; 
-    margin: 0 auto; 
-    
+    margin: 0 auto;     
   }
   
   .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 5px;
-    padding: 20px;
+   padding: 20px;
     background-color: var(--main-color);
   }
   .date {

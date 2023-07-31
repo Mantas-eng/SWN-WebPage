@@ -12,6 +12,7 @@
       font-size: 40px;
      
     }
+
   }
   @media (min-width: 768px) and (min-width: 1025px) {
      .card-wrapper{
@@ -19,6 +20,16 @@
         grid-template-columns: repeat(2, 1fr);
         
      }
+     .cards{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      width: 450px;
+      height: 400px;
+      margin: 5px;
+     }
+    
      .main-section{
       margin: 50px;
   }
@@ -87,4 +98,9 @@
          margin-left: auto;
     
       }
+      .tekstas {
+         font-size: 45px;
+         line-height: 4rem;
+         margin-right: 100px;
+       }
     }

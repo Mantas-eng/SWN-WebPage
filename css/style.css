@@ -160,13 +160,8 @@ nav ul li:last-child {
   
   .card p {
     display: flex;
-    margin-right: 30px;
-    margin-top: 100px;
-    line-height: 2;
-    max-width: 100%; 
     font-size: 16px;
      margin-left: auto;
-
   }
   
   .image {
@@ -176,7 +171,7 @@ nav ul li:last-child {
   }
   
   .image img {
-    width: 500px;
+    width: 340px;
     height: 300px;
 
   }
@@ -214,7 +209,7 @@ nav ul li:last-child {
   } 
   
   .tekstas {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 4rem;
     margin-right: 100px;
   }
@@ -231,7 +226,7 @@ nav ul li:last-child {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 450px;
+    width: 400px;
     height: 400px;
     margin: 5px;
 

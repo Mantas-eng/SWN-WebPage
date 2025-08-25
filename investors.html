@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SWN Investors</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/89937a7b06.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation container">
+        <div class="logo-link">
+          <a href="index.html"
+            ><img src="img/color-logo_large.png" class="logo" alt="SWN logo"
+          /></a>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="about.html">About</a></li>
+          <li><a href="operations.html">Operations</a></li>
+          <li><a href="investors.html" class="active">Investors</a></li>
+          <li><a href="index.html">News</a></li>
+        </ul>
+        <button class="burger" aria-label="Menu">
+          <i class="fa fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main-section container">
+        <h1>INVESTORS <span class="highlight">SWN</span></h1>
+        <p class="subtitle">
+          Financial reports, stock information, and investor relations.
+        </p>
+      </section>
+
+      <section class="about container">
+        <div class="card-wrapper">
+          <div class="cards">
+            <h2>Financial Reports</h2>
+            <p>Access quarterly and annual financial statements.</p>
+          </div>
+          <div class="cards">
+            <h2>Stock Information</h2>
+            <p>Up-to-date stock prices, market performance, and analytics.</p>
+          </div>
+          <div class="cards">
+            <h2>Investor News</h2>
+            <p>Latest news and updates relevant to shareholders.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const burger = document.querySelector(".burger");
+      const navMenu = document.querySelector(".nav-menu");
+      burger.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

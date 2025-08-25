@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SWN About</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/89937a7b06.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation container">
+        <div class="logo-link">
+          <a href="index.html"
+            ><img src="img/color-logo_large.png" class="logo" alt="SWN logo"
+          /></a>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="operations.html">Operations</a></li>
+          <li><a href="investors.html">Investors</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+        <button class="burger" aria-label="Menu">
+          <i class="fa fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main-section container">
+        <h1>ABOUT <span class="highlight">SWN</span></h1>
+        <p class="subtitle">
+          Southwestern Energy – powering progress responsibly.
+        </p>
+      </section>
+
+      <section class="about container">
+        <div class="card-wrapper">
+          <div class="cards">
+            <h2>Our Mission</h2>
+            <p>
+              Delivering energy responsibly, ensuring long-term benefits for
+              communities and stakeholders.
+            </p>
+          </div>
+          <div class="cards">
+            <h2>Our Vision</h2>
+            <p>
+              To be the most respected and innovative energy company in North
+              America.
+            </p>
+          </div>
+          <div class="cards">
+            <h2>Core Values</h2>
+            <p>
+              Safety • Integrity • Sustainability • Innovation • Collaboration
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <h2 class="section-title">Leadership Team</h2>
+        <div class="card-wrapper">
+          <div class="cards">
+            <img src="img/team1.jpg" alt="CEO" class="team-photo" />
+            <h3>Jane Smith</h3>
+            <p>Chief Executive Officer</p>
+          </div>
+          <div class="cards">
+            <img src="img/team2.jpg" alt="COO" class="team-photo" />
+            <h3>Michael Brown</h3>
+            <p>Chief Operating Officer</p>
+          </div>
+          <div class="cards">
+            <img src="img/team3.jpg" alt="CFO" class="team-photo" />
+            <h3>Sarah Johnson</h3>
+            <p>Chief Financial Officer</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const burger = document.querySelector(".burger");
+      const navMenu = document.querySelector(".nav-menu");
+      burger.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

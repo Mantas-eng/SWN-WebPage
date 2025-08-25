@@ -1,126 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="SWN agency">
-    <meta name="description" content="SWN booking agency">
-    <script src="https://kit.fontawesome.com/89937a7b06.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts  .gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900"
-    rel="stylesheet"
-    />  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>SWN Website Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <meta name="description" content="SWN booking agency" />
+    <script
+      src="https://kit.fontawesome.com/89937a7b06.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header class="header">
-        <nav class="navigation">
-        <div class="container">
-            <div class="logo-link">
-                <div class="link">
-                    <img src="img/color-logo_large.png" class="logo">
-                </div>
-            </div>
-                <div class="nav-menu">
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Operations</a></li>
-                        <li><a href="#">Investors</a></li>
-                        <li><a href="#">News</a></li>
-                    </ul>
-                </div>
-                    
-                
-                <div class="icon-wrap">
-                    <i class="fa fa-thin fa-globe" class="menu-icon"></i>
-                </div>
-                
-                <div class="mainmenuBar">
-                    <svg data-v-165629f9="" data-v-f8dbf21a="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="burger" role="presentation" class="mobile-menu-burger h-icon-dark" style="width: 24px; height: 24px;"><g data-v-165629f9=""><path data-v-165629f9="" d="M2 5V7H22V5H2ZM2 11V13H22V11H2ZM2 17V19H22V17H2Z"></path></g></svg>
-                </div>
-            </div>
-        </nav>
+      <nav class="navigation container">
+        <div class="logo-link">
+          <a href="#"
+            ><img src="img/color-logo_large.png" class="logo" alt="SWN logo"
+          /></a>
+        </div>
+
+        <ul class="nav-menu">
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/operations.html">Operations</a></li>
+          <li><a href="/investors.html">Investors</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+
+        <button class="burger" aria-label="Menu">
+          <i class="fa fa-bars"></i>
+        </button>
+      </nav>
     </header>
+
     <main>
-        <section class="main-section">
-        <div class="wrap">
-            <div class="text-right">
-                <p>News and Updates <br>Publication Library</p>
-            </div>
-                <div class="text-center">
-                    <h1>IN THE <br><span class="red">NEWS</span></h1>
-                </div>
-                <div class="arrow-wrap">
-                <img src="./img/down-arrow.png" alt="down" class="arrow-img">
-                </div>
+      <section class="main-section container">
+        <p class="subtitle">News and Updates • Publication Library</p>
+        <h1>IN THE <span class="highlight">NEWS</span></h1>
+      </section>
+
+      <section class="card-container container">
+        <div class="card">
+          <img src="img/neom-dulVtESluoM-unsplash.jpg" alt="News" />
+          <div class="card-body">
+            <span class="date">October 19, 2022</span>
+            <p>
+              Soutwestern Energy Announces Agreement to Acquire GEP Haynesville
+            </p>
+          </div>
         </div>
-        <div class="card-container">
-            <div class="card">
-                <div class="image">
-                    <img src="img/neom-dulVtESluoM-unsplash.jpg" alt="Nuotrauka">
-                    <div class="date">October 19, 2022</div>
-                    <p>Soutwestern Energy Announces Agreement to Acqure GEP Haynesville</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image">
-                    <div class="date">October 20, 2022</div>
-                    <p style="font-size: 40px;">Breaking News-SWN Acquires Montage Resources</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image">
-                    <img src="./img/h-i-s-n-dam-zI9PhvG7uNo-unsplash.jpg" alt="Nuotrauka">
-                    <div class="date">October 16, 2022</div>
-                    <p> Southwestern Energy Announces Agreement to Acquire Indigo Natural Resources</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image">
-                    <img src="./img/neom-dulVtESluoM-unsplash.jpg" alt="Nuotrauka">
-                    <div class="date">October 13, 2022</div>
-                    <p>The Environmental Partneship Releases Annual Report</p>
-                </div>
-            </div>
+
+        <div class="card">
+          <div class="card-body">
+            <span class="date">October 20, 2022</span>
+            <p class="large-text">
+              Breaking News – SWN Acquires Montage Resources
+            </p>
+          </div>
         </div>
-        <div class="button-container">
-            <button class="center-button">
-                Load More <i class="fas fa-chevron-down"></i>
-            </button>
+
+        <div class="card">
+          <img src="./img/h-i-s-n-dam-zI9PhvG7uNo-unsplash.jpg" alt="News" />
+          <div class="card-body">
+            <span class="date">October 16, 2022</span>
+            <p>
+              Southwestern Energy Announces Agreement to Acquire Indigo Natural
+              Resources
+            </p>
+          </div>
         </div>
-    </section>
-            <section class="about">
-                <h1 class="tekstas">PUBLICATION <br>LIBRARY</h1>
-                    <div class="card-wrapper">  
-                        <div class="cards card1">
-                            <div class="logo-title">
-                            <img src="./img/color-logo_large.png" alt="" class="logo">
-                            </div>
-                            <div class="title">
-                                <h1>CORPORATE</h1>
-                                <h4>Fact Sheet</h4>
-                            </div>
-                        </div>   
-                        <div class="cards card2">
-                            <div class="logo-title">
-                                <img src="./img/color-logo_large.png" alt="" class="logo">
-                                </div>
-                            <div class="title">
-                                <h1>SEISMIC SURVEY</h1>
-                                <h4>Fact Sheet</h4>
-                            </div>
-                    </div>
-                    </div>
-            </section>
-            <div class="button-container">
-                <button class="center-button">
-                    Load More <i class="fas fa-chevron-down"></i>
-                </button>
+
+        <div class="card">
+          <img src="./img/neom-dulVtESluoM-unsplash.jpg" alt="News" />
+          <div class="card-body">
+            <span class="date">October 13, 2022</span>
+            <p>The Environmental Partnership Releases Annual Report</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="button-container">
+        <button class="center-button">
+          Load More <i class="fas fa-chevron-down"></i>
+        </button>
+      </div>
+
+      <section class="about container">
+        <h1 class="section-title">PUBLICATION <br />LIBRARY</h1>
+
+        <div class="card-wrapper">
+          <div class="cards card1">
+            <div class="logo-title">
+              <img src="./img/color-logo_large.png" alt="" class="logo" />
             </div>
-    </main>     
-</body>
+            <div class="title">
+              <h1>CORPORATE</h1>
+              <h4>Fact Sheet</h4>
+            </div>
+          </div>
+
+          <div class="cards card2">
+            <div class="logo-title">
+              <img src="./img/color-logo_large.png" alt="" class="logo" />
+            </div>
+            <div class="title">
+              <h1>SEISMIC SURVEY</h1>
+              <h4>Fact Sheet</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="button-container">
+        <button class="center-button">
+          Load More <i class="fas fa-chevron-down"></i>
+        </button>
+      </div>
+    </main>
+
+    <script>
+      const burger = document.querySelector(".burger");
+      const navMenu = document.querySelector(".nav-menu");
+
+      burger.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+      });
+    </script>
+  </body>
 </html>
